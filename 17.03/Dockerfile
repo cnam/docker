@@ -3,7 +3,8 @@ FROM alpine:3.5
 RUN apk add --no-cache \
 		ca-certificates \
 		curl \
-		openssl
+		openssl \
+		make
 
 ENV DOCKER_BUCKET get.docker.com
 ENV DOCKER_VERSION 17.03.0-ce
